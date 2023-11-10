@@ -10,6 +10,9 @@
 /deployment/DockerComposeFiles/neo4j/*
 /temp
 
+ .DS_Store
+
+
 /articles/
 
 /auxil/
@@ -74,3 +77,8 @@ libopenal.dylib
 /.idea/
 __pycache__/
 /__pycache__/
+/models/mistral-7b-instruct-v0.1.Q4_K_M.gguf
+/models/luna-ai-llama2
+/models/WizardLM-7B-uncensored-GPTQ/
+/models/TheBloke_Mistral-7B-OpenOrca-GPTQ/
+/models/LM_studio/
