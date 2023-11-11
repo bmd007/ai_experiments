@@ -82,3 +82,5 @@ __pycache__/
 /models/WizardLM-7B-uncensored-GPTQ/
 /models/TheBloke_Mistral-7B-OpenOrca-GPTQ/
 /models/LM_studio/
+/local_data/
+/models/
