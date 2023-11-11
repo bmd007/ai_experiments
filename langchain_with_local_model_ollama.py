@@ -12,7 +12,7 @@ from langchain.vectorstores import Chroma
 
 # load log file
 loader = JSONLoader(file_path="/Users/mohami/workspacce/personal-repositories/ai_experiments/local_data/small.json",
-                    jq_schema=".[]",
+                    jq_schema=".[].",
                     text_content=False)
 data = loader.load()
 # Split into chunks
