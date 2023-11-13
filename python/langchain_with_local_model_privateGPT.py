@@ -10,7 +10,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import Chroma
 
 # load log file
-loader = JSONLoader(file_path="/Users/mohami/workspacce/personal-repositories/ai_experiments/local_data/try.json",
+loader = JSONLoader(file_path="/local_data/try.json",
                     jq_schema=".[].jsonPayload.message",
                     text_content=False)
 data = loader.load()
