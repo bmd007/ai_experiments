@@ -37,7 +37,7 @@ services:
   #      - elastic
   #    command: logstash -f /usr/share/logstash/pipeline/logstash-nginx.config
   kibana:
-    image: docker.elastic.co/kibana/kibana:8.12.0
+    image: docker.elastic.co/kibana/kibana:8.12.2
     container_name: kibana
     hostname: kibana
     ports:
