@@ -1,0 +1,23 @@
+spring:
+  application.name: spring-ai-locally
+  ai:
+    ollama:
+      base-url: http://localhost:11434/
+      chat:
+        options:
+          model: llama2
+          temperature: 0.7
+
+langchain4j:
+  open-ai:
+    chat-model:
+      base-url: http://localhost:11434/
+      model-name: llama2
+      api-key: 111
+      temperature: 0.7
+      log-requests: true
+      log-responses: true
+
+logging.level.dev:
+  langchain4j: DEBUG
+  openai4j: DEBUG
