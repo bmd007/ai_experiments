@@ -24,3 +24,6 @@ GET http://localhost:8080/model
 
 ###
 GET http://localhost:8080/ai/generate
+
+###
+GET http://localhost:8080/ai/embedding

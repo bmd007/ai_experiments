@@ -3,9 +3,13 @@ spring:
   ai:
     ollama:
       base-url: http://localhost:11434/
+      embedding:
+        options:
+          model: llama2:13b
+          temperature: 0.0
       chat:
         options:
-          model: llama2
+          model: llama2:13b
           temperature: 0.7
 
 langchain4j:
@@ -14,7 +18,7 @@ langchain4j:
       base-url: http://localhost:11434/
       model-name: llama2
       api-key: 111
-      temperature: 0.7
+      temperature: 0.0
       log-requests: true
       log-responses: true
 
