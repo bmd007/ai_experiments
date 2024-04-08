@@ -6,3 +6,21 @@ Content-Type: application/json
   "stream": false,
   "use_context": false
 }
+
+###
+# curl -X POST http://localhost:11434/api/generate -d '{
+#  "model": "llama2",
+#  "prompt": "Your awesome prompt"
+# }'
+POST http://localhost:11434/api/generate
+
+{
+  "model": "llama2",
+  "prompt": "Your awesome prompt"
+ }
+
+###
+GET http://localhost:8080/model
+
+###
+GET http://localhost:8080/ai/generate
