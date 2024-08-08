@@ -1,6 +1,6 @@
 services:
   elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:8.14.3
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.15.0
     container_name: elasticsearch
     hostname: elasticsearch
     environment:
@@ -37,7 +37,7 @@ services:
   #      - elastic
   #    command: logstash -f /usr/share/logstash/pipeline/logstash-nginx.config
   kibana:
-    image: docker.elastic.co/kibana/kibana:8.14.3
+    image: docker.elastic.co/kibana/kibana:8.15.0
     container_name: kibana
     hostname: kibana
     ports:
